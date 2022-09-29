@@ -14,3 +14,8 @@ runs = 1_000
 # Extreme Fuzzing CI Profile :P
 [profile.fuzz.ci]
 runs = 100_000
+
+remappings = [
+  '@std=lib/forge-std/src/',
+  '@base=lib/solbase/src/'
+]
