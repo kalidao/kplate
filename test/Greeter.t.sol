@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity ^0.8.15;
 
-import "forge-std/Test.sol";
+import "@std/Test.sol";
 
 import {Greeter} from "src/Greeter.sol";
 
