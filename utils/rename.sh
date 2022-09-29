@@ -11,5 +11,5 @@ echo Enter your new repo name:
 read repo
 
 # Rename instances of "femplate" to the new repo name in README.md
-sedi 's/femplate/'${repo}'/g' 'README.md'
-sedi 's/.'${repo}'..https:\/\/github.com\/abigger87\/'${repo}'./[femplate](https:\/\/github.com\/abigger87\/femplate)/g' 'README.md'
+sedi 's/kplate/'${repo}'/g' 'README.md'
+sedi 's/.'${repo}'..https:\/\/github.com\/kalidao\/'${repo}'./[kplate](https:\/\/github.com\/kalidao\/kplate)/g' 'README.md'
