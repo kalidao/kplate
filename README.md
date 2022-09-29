@@ -6,23 +6,23 @@ A **Clean**, **Robust** Template for Foundry Projects.
 
 ## Getting Started
 
-Click [`use this template`](https://github.com/abigger87/femplate/generate) to create a new repository with this repo as the initial state.
+Click [`use this template`](https://github.com/kalidao/kplate/generate) to create a new repository with this repo as the initial state.
 
 Or, if your repo already exists, run:
 ```sh
-forge init --template https://github.com/abigger87/femplate
+forge init --template https://github.com/kalidao/kplate
 git submodule update --init --recursive
 forge install
 ```
 
-Run `./utils/rename.sh` to rename all instances of `femplate` with the name of your project/repository.
+Run `./utils/rename.sh` to rename all instances of `kplate` with the name of your project/repository.
 
 ## Blueprint
 
 ```ml
 lib
 ├─ forge-std — https://github.com/foundry-rs/forge-std
-├─ solmate — https://github.com/Rari-Capital/solmate
+├─ solbase — https://github.com/Sol-DAO/solbase
 scripts
 ├─ Deploy.s.sol — Simple Deployment Script
 src
@@ -101,14 +101,15 @@ For a full list of configuration options, see the Foundry [configuration documen
 
 ## License
 
-[AGPL-3.0-only](https://github.com/abigger87/femplate/blob/master/LICENSE)
+[MIT](https://github.com/kalidao/kplate/blob/master/LICENSE)
 
 
 ## Acknowledgements
 
 - [femplate](https://github.com/abigger87/femplate)
+- [kplate](https://github.com/kalidao/kplate)
 - [foundry](https://github.com/foundry-rs/foundry)
-- [solmate](https://github.com/Rari-Capital/solmate)
+- [solbase](https://github.com/Sol-DAO/solbase)
 - [forge-std](https://github.com/brockelmore/forge-std)
 - [forge-template](https://github.com/foundry-rs/forge-template)
 - [foundry-toolchain](https://github.com/foundry-rs/foundry-toolchain)
